@@ -1,16 +1,23 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
 
-# vscode settings
-.vscode
+# Other files and folders
+.settings/
 
-# Virtual environments
-.venv
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
 
-# data
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
+
+# env variables
+.env
+
 data
